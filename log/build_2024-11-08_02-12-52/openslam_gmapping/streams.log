@@ -1,0 +1,110 @@
+[0.009s] Invoking command in '/home/dpkings/Multi-map/build/openslam_gmapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dpkings/eyrc-24-25-logistic-cobot/install/ur5_control:/opt/ros/humble /usr/bin/cmake /home/dpkings/Multi-map/src/slam_gmapping/openslam_gmapping -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dpkings/Multi-map/install/openslam_gmapping
+[0.055s] -- The C compiler identification is GNU 11.4.0
+[0.102s] -- The CXX compiler identification is GNU 11.4.0
+[0.107s] -- Detecting C compiler ABI info
+[0.167s] -- Detecting C compiler ABI info - done
+[0.172s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.173s] -- Detecting C compile features
+[0.173s] -- Detecting C compile features - done
+[0.175s] -- Detecting CXX compiler ABI info
+[0.236s] -- Detecting CXX compiler ABI info - done
+[0.243s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.243s] -- Detecting CXX compile features
+[0.244s] -- Detecting CXX compile features - done
+[0.246s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.747s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.792s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.881s] -- Configuring done
+[0.889s] -- Generating done
+[0.890s] -- Build files have been written to: /home/dpkings/Multi-map/build/openslam_gmapping
+[0.895s] Invoked command in '/home/dpkings/Multi-map/build/openslam_gmapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dpkings/eyrc-24-25-logistic-cobot/install/ur5_control:/opt/ros/humble /usr/bin/cmake /home/dpkings/Multi-map/src/slam_gmapping/openslam_gmapping -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dpkings/Multi-map/install/openslam_gmapping
+[0.896s] Invoking command in '/home/dpkings/Multi-map/build/openslam_gmapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dpkings/eyrc-24-25-logistic-cobot/install/ur5_control:/opt/ros/humble /usr/bin/cmake --build /home/dpkings/Multi-map/build/openslam_gmapping -- -j8 -l8
+[0.941s] [  4%] [32mBuilding CXX object utils/CMakeFiles/utils.dir/movement.cpp.o[0m
+[1.148s] [  9%] [32mBuilding CXX object utils/CMakeFiles/utils.dir/stat.cpp.o[0m
+[1.355s] [ 13%] [32m[1mLinking CXX static library libutils.a[0m
+[1.381s] [ 13%] Built target utils
+[1.399s] [ 18%] [32mBuilding CXX object sensor/sensor_base/CMakeFiles/sensor_base.dir/sensor.cpp.o[0m
+[1.542s] [ 22%] [32mBuilding CXX object sensor/sensor_base/CMakeFiles/sensor_base.dir/sensorreading.cpp.o[0m
+[1.670s] [ 27%] [32m[1mLinking CXX static library libsensor_base.a[0m
+[1.699s] [ 27%] Built target sensor_base
+[1.718s] [ 31%] [32mBuilding CXX object sensor/sensor_range/CMakeFiles/sensor_range.dir/rangereading.cpp.o[0m
+[2.005s] [ 36%] [32mBuilding CXX object sensor/sensor_range/CMakeFiles/sensor_range.dir/rangesensor.cpp.o[0m
+[2.244s] [ 40%] [32m[1mLinking CXX static library libsensor_range.a[0m
+[2.272s] [ 40%] Built target sensor_range
+[2.289s] [ 45%] [32mBuilding CXX object sensor/sensor_odometry/CMakeFiles/sensor_odometry.dir/odometryreading.cpp.o[0m
+[2.487s] [ 50%] [32mBuilding CXX object sensor/sensor_odometry/CMakeFiles/sensor_odometry.dir/odometrysensor.cpp.o[0m
+[2.620s] [ 54%] [32m[1mLinking CXX static library libsensor_odometry.a[0m
+[2.646s] [ 54%] Built target sensor_odometry
+[2.665s] [ 59%] [32mBuilding CXX object scanmatcher/CMakeFiles/scanmatcher.dir/eig3.cpp.o[0m
+[2.798s] [ 63%] [32mBuilding CXX object scanmatcher/CMakeFiles/scanmatcher.dir/smmap.cpp.o[0m
+[2.992s] [ 68%] [32mBuilding CXX object scanmatcher/CMakeFiles/scanmatcher.dir/scanmatcherprocessor.cpp.o[0m
+[3.423s] [ 72%] [32mBuilding CXX object scanmatcher/CMakeFiles/scanmatcher.dir/scanmatcher.cpp.o[0m
+[4.353s] [ 77%] [32m[1mLinking CXX static library libscanmatcher.a[0m
+[4.380s] [ 77%] Built target scanmatcher
+[4.405s] [ 81%] [32mBuilding CXX object gridfastslam/CMakeFiles/gridfastslam.dir/gfsreader.cpp.o[0m
+[5.072s] [ 86%] [32mBuilding CXX object gridfastslam/CMakeFiles/gridfastslam.dir/motionmodel.cpp.o[0m
+[5.279s] [ 90%] [32mBuilding CXX object gridfastslam/CMakeFiles/gridfastslam.dir/gridslamprocessor_tree.cpp.o[0m
+[5.788s] [ 95%] [32mBuilding CXX object gridfastslam/CMakeFiles/gridfastslam.dir/gridslamprocessor.cpp.o[0m
+[6.802s] [100%] [32m[1mLinking CXX static library libgridfastslam.a[0m
+[6.830s] [100%] Built target gridfastslam
+[6.840s] Invoked command in '/home/dpkings/Multi-map/build/openslam_gmapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dpkings/eyrc-24-25-logistic-cobot/install/ur5_control:/opt/ros/humble /usr/bin/cmake --build /home/dpkings/Multi-map/build/openslam_gmapping -- -j8 -l8
+[6.889s] Invoking command in '/home/dpkings/Multi-map/build/openslam_gmapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dpkings/eyrc-24-25-logistic-cobot/install/ur5_control:/opt/ros/humble /usr/bin/cmake --install /home/dpkings/Multi-map/build/openslam_gmapping
+[6.896s] -- Install configuration: ""
+[6.897s] -- Execute custom install script
+[6.897s] -- Symlinking: /home/dpkings/Multi-map/install/openslam_gmapping/lib/libgridfastslam.a
+[6.911s] -- Symlinking: /home/dpkings/Multi-map/install/openslam_gmapping/lib/libscanmatcher.a
+[6.922s] -- Symlinking: /home/dpkings/Multi-map/install/openslam_gmapping/lib/libsensor_base.a
+[6.932s] -- Symlinking: /home/dpkings/Multi-map/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh
+[6.939s] -- Symlinking: /home/dpkings/Multi-map/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv
+[6.945s] -- Up-to-date symlink: /home/dpkings/Multi-map/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh
+[6.945s] -- Up-to-date symlink: /home/dpkings/Multi-map/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv
+[6.945s] -- Symlinking: /home/dpkings/Multi-map/install/openslam_gmapping/lib/libsensor_odometry.a
+[6.952s] -- Symlinking: /home/dpkings/Multi-map/install/openslam_gmapping/lib/libsensor_range.a
+[6.959s] -- Symlinking: /home/dpkings/Multi-map/install/openslam_gmapping/lib/libutils.a
+[6.968s] -- Up-to-date symlink: /home/dpkings/Multi-map/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh
+[6.968s] -- Up-to-date symlink: /home/dpkings/Multi-map/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv
+[6.968s] -- Up-to-date symlink: /home/dpkings/Multi-map/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh
+[6.968s] -- Up-to-date symlink: /home/dpkings/Multi-map/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv
+[6.968s] -- Symlinking: /home/dpkings/Multi-map/install/openslam_gmapping/include//gmapping/grid/accessstate.h
+[6.975s] -- Symlinking: /home/dpkings/Multi-map/install/openslam_gmapping/include//gmapping/grid/array2d.h
+[6.982s] -- Symlinking: /home/dpkings/Multi-map/install/openslam_gmapping/include//gmapping/grid/harray2d.h
+[6.989s] -- Symlinking: /home/dpkings/Multi-map/install/openslam_gmapping/include//gmapping/grid/map.h
+[6.995s] -- Symlinking: /home/dpkings/Multi-map/install/openslam_gmapping/include//gmapping/gridfastslam/gridslamprocessor.h
+[7.002s] -- Symlinking: /home/dpkings/Multi-map/install/openslam_gmapping/include//gmapping/gridfastslam/gridslamprocessor.hxx
+[7.008s] -- Symlinking: /home/dpkings/Multi-map/install/openslam_gmapping/include//gmapping/gridfastslam/motionmodel.h
+[7.015s] -- Symlinking: /home/dpkings/Multi-map/install/openslam_gmapping/include//gmapping/log/configuration.h
+[7.022s] -- Symlinking: /home/dpkings/Multi-map/install/openslam_gmapping/include//gmapping/log/sensorlog.h
+[7.028s] -- Symlinking: /home/dpkings/Multi-map/install/openslam_gmapping/include//gmapping/particlefilter/particlefilter.h
+[7.036s] -- Symlinking: /home/dpkings/Multi-map/install/openslam_gmapping/include//gmapping/scanmatcher/icp.h
+[7.042s] -- Symlinking: /home/dpkings/Multi-map/install/openslam_gmapping/include//gmapping/scanmatcher/scanmatcher.h
+[7.049s] -- Symlinking: /home/dpkings/Multi-map/install/openslam_gmapping/include//gmapping/scanmatcher/smmap.h
+[7.056s] -- Symlinking: /home/dpkings/Multi-map/install/openslam_gmapping/include//gmapping/sensor/sensor_base/sensor.h
+[7.063s] -- Symlinking: /home/dpkings/Multi-map/install/openslam_gmapping/include//gmapping/sensor/sensor_base/sensorreading.h
+[7.070s] -- Symlinking: /home/dpkings/Multi-map/install/openslam_gmapping/include//gmapping/sensor/sensor_odometry/odometryreading.h
+[7.077s] -- Symlinking: /home/dpkings/Multi-map/install/openslam_gmapping/include//gmapping/sensor/sensor_odometry/odometrysensor.h
+[7.083s] -- Symlinking: /home/dpkings/Multi-map/install/openslam_gmapping/include//gmapping/sensor/sensor_range/rangereading.h
+[7.090s] -- Symlinking: /home/dpkings/Multi-map/install/openslam_gmapping/include//gmapping/sensor/sensor_range/rangesensor.h
+[7.099s] -- Symlinking: /home/dpkings/Multi-map/install/openslam_gmapping/include//gmapping/utils/autoptr.h
+[7.105s] -- Symlinking: /home/dpkings/Multi-map/install/openslam_gmapping/include//gmapping/utils/commandline.h
+[7.111s] -- Symlinking: /home/dpkings/Multi-map/install/openslam_gmapping/include//gmapping/utils/gvalues.h
+[7.118s] -- Symlinking: /home/dpkings/Multi-map/install/openslam_gmapping/include//gmapping/utils/macro_params.h
+[7.125s] -- Symlinking: /home/dpkings/Multi-map/install/openslam_gmapping/include//gmapping/utils/point.h
+[7.132s] -- Symlinking: /home/dpkings/Multi-map/install/openslam_gmapping/include//gmapping/utils/stat.h
+[7.138s] -- Symlinking: /home/dpkings/Multi-map/install/openslam_gmapping/share/ament_index/resource_index/package_run_dependencies/openslam_gmapping
+[7.145s] -- Symlinking: /home/dpkings/Multi-map/install/openslam_gmapping/share/ament_index/resource_index/parent_prefix_path/openslam_gmapping
+[7.152s] -- Symlinking: /home/dpkings/Multi-map/install/openslam_gmapping/share/openslam_gmapping/environment/ament_prefix_path.sh
+[7.158s] -- Symlinking: /home/dpkings/Multi-map/install/openslam_gmapping/share/openslam_gmapping/environment/ament_prefix_path.dsv
+[7.167s] -- Symlinking: /home/dpkings/Multi-map/install/openslam_gmapping/share/openslam_gmapping/environment/path.sh
+[7.174s] -- Symlinking: /home/dpkings/Multi-map/install/openslam_gmapping/share/openslam_gmapping/environment/path.dsv
+[7.182s] -- Symlinking: /home/dpkings/Multi-map/install/openslam_gmapping/share/openslam_gmapping/local_setup.bash
+[7.189s] -- Symlinking: /home/dpkings/Multi-map/install/openslam_gmapping/share/openslam_gmapping/local_setup.sh
+[7.196s] -- Symlinking: /home/dpkings/Multi-map/install/openslam_gmapping/share/openslam_gmapping/local_setup.zsh
+[7.202s] -- Symlinking: /home/dpkings/Multi-map/install/openslam_gmapping/share/openslam_gmapping/local_setup.dsv
+[7.208s] -- Symlinking: /home/dpkings/Multi-map/install/openslam_gmapping/share/openslam_gmapping/package.dsv
+[7.215s] -- Symlinking: /home/dpkings/Multi-map/install/openslam_gmapping/share/ament_index/resource_index/packages/openslam_gmapping
+[7.221s] -- Symlinking: /home/dpkings/Multi-map/install/openslam_gmapping/share/openslam_gmapping/cmake/ament_cmake_export_libraries-extras.cmake
+[7.228s] -- Symlinking: /home/dpkings/Multi-map/install/openslam_gmapping/share/openslam_gmapping/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.235s] -- Symlinking: /home/dpkings/Multi-map/install/openslam_gmapping/share/openslam_gmapping/cmake/openslam_gmappingConfig.cmake
+[7.242s] -- Symlinking: /home/dpkings/Multi-map/install/openslam_gmapping/share/openslam_gmapping/cmake/openslam_gmappingConfig-version.cmake
+[7.248s] -- Symlinking: /home/dpkings/Multi-map/install/openslam_gmapping/share/openslam_gmapping/package.xml
+[7.257s] Invoked command in '/home/dpkings/Multi-map/build/openslam_gmapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dpkings/eyrc-24-25-logistic-cobot/install/ur5_control:/opt/ros/humble /usr/bin/cmake --install /home/dpkings/Multi-map/build/openslam_gmapping

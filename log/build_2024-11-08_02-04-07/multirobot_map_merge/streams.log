@@ -1,0 +1,58 @@
+[0.014s] Invoking command in '/home/dpkings/Multi-map/build/multirobot_map_merge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dpkings/eyrc-24-25-logistic-cobot/install/ur5_control:/opt/ros/humble /usr/bin/cmake --build /home/dpkings/Multi-map/build/multirobot_map_merge -- -j8 -l8
+[0.050s] [35m[1mConsolidate compiler generated dependencies of target combine_grids[0m
+[0.050s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[0.053s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[0.065s] [ 33%] Built target gtest
+[0.065s] [ 33%] Built target gtest_main
+[0.069s] [ 66%] Built target combine_grids
+[0.081s] [35m[1mConsolidate compiler generated dependencies of target test_merging_pipeline[0m
+[0.081s] [35m[1mConsolidate compiler generated dependencies of target map_merge[0m
+[0.098s] [ 83%] Built target test_merging_pipeline
+[0.105s] [ 91%] [32mBuilding CXX object CMakeFiles/map_merge.dir/src/map_merge.cpp.o[0m
+[10.828s] [100%] [32m[1mLinking CXX executable map_merge[0m
+[11.799s] [100%] Built target map_merge
+[11.809s] Invoked command in '/home/dpkings/Multi-map/build/multirobot_map_merge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dpkings/eyrc-24-25-logistic-cobot/install/ur5_control:/opt/ros/humble /usr/bin/cmake --build /home/dpkings/Multi-map/build/multirobot_map_merge -- -j8 -l8
+[11.855s] Invoking command in '/home/dpkings/Multi-map/build/multirobot_map_merge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dpkings/eyrc-24-25-logistic-cobot/install/ur5_control:/opt/ros/humble /usr/bin/cmake --install /home/dpkings/Multi-map/build/multirobot_map_merge
+[11.861s] -- Install configuration: ""
+[11.861s] -- Up-to-date: /home/dpkings/Multi-map/install/multirobot_map_merge/include/map_merge/
+[11.861s] -- Up-to-date: /home/dpkings/Multi-map/install/multirobot_map_merge/include/map_merge//map_merge.h
+[11.861s] -- Up-to-date: /home/dpkings/Multi-map/install/multirobot_map_merge/include/map_merge//ros1_names.hpp
+[11.861s] -- Up-to-date: /home/dpkings/Multi-map/install/multirobot_map_merge/share/multirobot_map_merge/launch
+[11.861s] -- Up-to-date: /home/dpkings/Multi-map/install/multirobot_map_merge/share/multirobot_map_merge/launch/map_merge.rviz
+[11.861s] -- Up-to-date: /home/dpkings/Multi-map/install/multirobot_map_merge/share/multirobot_map_merge/launch/tb3_simulation
+[11.861s] -- Up-to-date: /home/dpkings/Multi-map/install/multirobot_map_merge/share/multirobot_map_merge/launch/tb3_simulation/slam_toolbox.py
+[11.861s] -- Up-to-date: /home/dpkings/Multi-map/install/multirobot_map_merge/share/multirobot_map_merge/launch/tb3_simulation/worlds
+[11.861s] -- Up-to-date: /home/dpkings/Multi-map/install/multirobot_map_merge/share/multirobot_map_merge/launch/tb3_simulation/worlds/world_only.model
+[11.861s] -- Up-to-date: /home/dpkings/Multi-map/install/multirobot_map_merge/share/multirobot_map_merge/launch/tb3_simulation/multi_tb3_simulation_launch.py
+[11.861s] -- Up-to-date: /home/dpkings/Multi-map/install/multirobot_map_merge/share/multirobot_map_merge/launch/tb3_simulation/tb3_simulation_launch.py
+[11.861s] -- Up-to-date: /home/dpkings/Multi-map/install/multirobot_map_merge/share/multirobot_map_merge/launch/tb3_simulation/config
+[11.861s] -- Up-to-date: /home/dpkings/Multi-map/install/multirobot_map_merge/share/multirobot_map_merge/launch/tb3_simulation/config/nav2_multirobot_params_2.yaml
+[11.861s] -- Up-to-date: /home/dpkings/Multi-map/install/multirobot_map_merge/share/multirobot_map_merge/launch/tb3_simulation/config/nav2_multirobot_params_1.yaml
+[11.862s] -- Up-to-date: /home/dpkings/Multi-map/install/multirobot_map_merge/share/multirobot_map_merge/launch/tb3_simulation/bringup_launch.py
+[11.862s] -- Up-to-date: /home/dpkings/Multi-map/install/multirobot_map_merge/share/multirobot_map_merge/launch/from_map_server.launch.py
+[11.862s] -- Up-to-date: /home/dpkings/Multi-map/install/multirobot_map_merge/share/multirobot_map_merge/launch/map_merge.launch.py
+[11.862s] -- Up-to-date: /home/dpkings/Multi-map/install/multirobot_map_merge/share/multirobot_map_merge/config
+[11.862s] -- Up-to-date: /home/dpkings/Multi-map/install/multirobot_map_merge/share/multirobot_map_merge/config/params.yaml
+[11.862s] -- Up-to-date: /home/dpkings/Multi-map/install/multirobot_map_merge/lib/libcombine_grids.a
+[11.862s] -- Installing: /home/dpkings/Multi-map/install/multirobot_map_merge/lib/multirobot_map_merge/map_merge
+[11.865s] -- Set runtime path of "/home/dpkings/Multi-map/install/multirobot_map_merge/lib/multirobot_map_merge/map_merge" to ""
+[11.865s] -- Up-to-date: /home/dpkings/Multi-map/install/multirobot_map_merge/share/multirobot_map_merge/environment/library_path.sh
+[11.865s] -- Up-to-date: /home/dpkings/Multi-map/install/multirobot_map_merge/share/multirobot_map_merge/environment/library_path.dsv
+[11.865s] -- Up-to-date: /home/dpkings/Multi-map/install/multirobot_map_merge/share/ament_index/resource_index/package_run_dependencies/multirobot_map_merge
+[11.865s] -- Up-to-date: /home/dpkings/Multi-map/install/multirobot_map_merge/share/ament_index/resource_index/parent_prefix_path/multirobot_map_merge
+[11.865s] -- Up-to-date: /home/dpkings/Multi-map/install/multirobot_map_merge/share/multirobot_map_merge/environment/ament_prefix_path.sh
+[11.865s] -- Up-to-date: /home/dpkings/Multi-map/install/multirobot_map_merge/share/multirobot_map_merge/environment/ament_prefix_path.dsv
+[11.865s] -- Up-to-date: /home/dpkings/Multi-map/install/multirobot_map_merge/share/multirobot_map_merge/environment/path.sh
+[11.865s] -- Up-to-date: /home/dpkings/Multi-map/install/multirobot_map_merge/share/multirobot_map_merge/environment/path.dsv
+[11.865s] -- Up-to-date: /home/dpkings/Multi-map/install/multirobot_map_merge/share/multirobot_map_merge/local_setup.bash
+[11.865s] -- Up-to-date: /home/dpkings/Multi-map/install/multirobot_map_merge/share/multirobot_map_merge/local_setup.sh
+[11.865s] -- Up-to-date: /home/dpkings/Multi-map/install/multirobot_map_merge/share/multirobot_map_merge/local_setup.zsh
+[11.865s] -- Up-to-date: /home/dpkings/Multi-map/install/multirobot_map_merge/share/multirobot_map_merge/local_setup.dsv
+[11.865s] -- Installing: /home/dpkings/Multi-map/install/multirobot_map_merge/share/multirobot_map_merge/package.dsv
+[11.865s] -- Up-to-date: /home/dpkings/Multi-map/install/multirobot_map_merge/share/ament_index/resource_index/packages/multirobot_map_merge
+[11.866s] -- Up-to-date: /home/dpkings/Multi-map/install/multirobot_map_merge/share/multirobot_map_merge/cmake/ament_cmake_export_include_directories-extras.cmake
+[11.866s] -- Up-to-date: /home/dpkings/Multi-map/install/multirobot_map_merge/share/multirobot_map_merge/cmake/ament_cmake_export_libraries-extras.cmake
+[11.866s] -- Up-to-date: /home/dpkings/Multi-map/install/multirobot_map_merge/share/multirobot_map_merge/cmake/multirobot_map_mergeConfig.cmake
+[11.866s] -- Up-to-date: /home/dpkings/Multi-map/install/multirobot_map_merge/share/multirobot_map_merge/cmake/multirobot_map_mergeConfig-version.cmake
+[11.866s] -- Up-to-date: /home/dpkings/Multi-map/install/multirobot_map_merge/share/multirobot_map_merge/package.xml
+[11.867s] Invoked command in '/home/dpkings/Multi-map/build/multirobot_map_merge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dpkings/eyrc-24-25-logistic-cobot/install/ur5_control:/opt/ros/humble /usr/bin/cmake --install /home/dpkings/Multi-map/build/multirobot_map_merge
